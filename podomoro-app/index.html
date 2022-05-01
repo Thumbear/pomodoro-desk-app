@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="index.css">
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <h1 class="ml">🍅 Pomodoro</h1>
+    <p class="ml">Start your lovely day with productivity</p>
+    <div class="pomodoro">
+        <div class="divtimer">
+            <p class="timer" id="timer">25:00</p>
+        </div>
+        <div class="button mt">
+            <div class="play" id="play">
+                <img src="./assets/play.png" alt="play" id="play-img">
+            </div>
+            <div class="stop" id="stop">
+                <img src="./assets/stop.png" alt="stop" id="stop-img">
+            </div>
+        </div>
+    </div>
+  </body>
+
+  <script src="./scripts/pomodoro.js"></script>
+</html>

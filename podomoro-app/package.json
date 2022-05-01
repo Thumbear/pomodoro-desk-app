@@ -1,0 +1,16 @@
+{
+  "name": "podomoro-made-by-Tamir",
+  "version": "1.0.0",
+  "description": "podomoro app for productivity",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamiramin",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.0",
+    "electron-packager": "^15.5.1"
+  }
+}
